@@ -1,8 +1,8 @@
 name: Test Secret
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  push:
+    branches: [ ga-test-workflow ]
 
 permissions:
   contents: read
